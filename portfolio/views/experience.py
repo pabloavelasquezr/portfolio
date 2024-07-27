@@ -3,21 +3,23 @@ from portfolio.components.icon_badge import icon_badge, since_block
 
 def experience() -> rx.Component:
     return rx.vstack(
-        rx.text(
+        rx.heading(
             "Experiencia",
             size="5",
-            color=rx.color_mode_cond(light="black", dark="white"),
         ),
 
         rx.flex(
             rx.hstack(
                 icon_badge("brain"),
                 rx.vstack(
-                    rx.text(
-                        "AI Code Reviewer"
+                    rx.heading(
+                        "AI Code Reviewer",
+                        size="3",
                     ),
-                    rx.text(
-                        "Revelo"
+                    rx.heading(
+                        "Revelo",
+                        size="2",
+                        color_scheme="gray",
                     ),
                     rx.list.unordered(
                         rx.list.item("Entrenar modelos de inteligencia artificial generativa en lenguaje SQL, fomentando su desarrollo como codificadores expertos y contribuyendo a la creación de herramientas de codificación avanzadas para la próxima generación."),
@@ -34,11 +36,14 @@ def experience() -> rx.Component:
             rx.hstack(
                 icon_badge("braces"),
                 rx.vstack(
-                    rx.text(
-                        "Universidad Externado de Colombia, Bogotá"
+                    rx.heading(
+                        "Administrador de plataformas",
+                        size="3",
                     ),
-                    rx.text(
-                        "Administrador de plataformas"
+                    rx.heading(
+                        "Universidad Externado de Colombia",
+                        size="2",
+                        color_scheme="gray",
                     ),
                     rx.list.unordered(
                         rx.list.item("Desarrollo de aplicaciones utilizando Python, Django, Javascript, React y MySQL."),
@@ -58,11 +63,14 @@ def experience() -> rx.Component:
             rx.hstack(
                 icon_badge("presentation"),
                 rx.vstack(
-                    rx.text(
-                        "Telefónica Educación Digital"
+                    rx.heading(
+                        "Gestor de Proyectos",
+                        size="3",
                     ),
-                    rx.text(
-                        "Gestor de Proyectos"
+                    rx.heading(
+                        "Telefónica Educación Digital",
+                        size="2",
+                        color_scheme="gray",
                     ),
                     rx.list.unordered(
                         rx.list.item("Informes de progreso semanales a la gerencia."),
@@ -82,11 +90,14 @@ def experience() -> rx.Component:
             rx.hstack(
                 icon_badge("database"),
                 rx.vstack(
-                    rx.text(
-                        "University of Valencia, UV"
+                    rx.heading(
+                        "Administrativo y gestión",
+                        size="3",
                     ),
-                    rx.text(
-                        "Administrativo y gestión"
+                    rx.heading(
+                        "Universidad de Valencia",
+                        size="2",
+                        color_scheme="gray",
                     ),
                     rx.list.unordered(
                         rx.list.item("Actividades de apoyo administrativo y de gestión educativa al Máster en Creación y Gestión de Empresas Innovadoras (Master EI)."),
@@ -102,11 +113,14 @@ def experience() -> rx.Component:
             rx.hstack(
                 icon_badge("code"),
                 rx.vstack(
-                    rx.text(
-                        "Universidad Autónoma de Bucaramanga, UNAB Virtual"
+                    rx.heading(
+                        "Administrador de Sistemas y Tecnologías de Información",
+                        size="3",
                     ),
-                    rx.text(
-                        "Administrador de Sistemas y Tecnologías de Información"
+                    rx.heading(
+                        "Universidad Autónoma de Bucaramanga, UNAB Virtual",
+                        size="2",
+                        color_scheme="gray",
                     ),
                     rx.list.unordered(
                         rx.list.item("Crear manuales de operación y documentos de mantenimiento."),
@@ -122,11 +136,14 @@ def experience() -> rx.Component:
             rx.hstack(
                 icon_badge("code-xml"),
                 rx.vstack(
-                    rx.text(
-                        "Universidad Autónoma de Bucaramanga, UNAB Virtual, Bucaramanga"
+                    rx.heading(
+                        "Profesional Elearning",
+                        size="3",
                     ),
-                    rx.text(
-                        "Profesional Elearning"
+                    rx.heading(
+                        "Universidad Autónoma de Bucaramanga, UNAB Virtual",
+                        size="2",
+                        color_scheme="gray",
                     ),
                     rx.list.unordered(
                         rx.list.item("Diseño, programación y desarrollo de nuevas tecnologías para diversos proyectos en el área de e-learning en tecnologías HTML5 con manejo de API SCORM 1.2. Administración y soporte de las plataformas Blackboard y Moodle LMS."),

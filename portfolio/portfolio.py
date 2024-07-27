@@ -1,4 +1,5 @@
 import reflex as rx
+from portfolio.styles.style import STYLESHEETS, BASE_STYLE, Color, TextColor
 from portfolio.components.navbar import navbar
 from portfolio.views.header import header
 from portfolio.views.about import about
@@ -20,13 +21,13 @@ def index() -> rx.Component:
         rx.vstack(
             header(),
             about(),
-            # Skills
+            rx.divider(),
             skills(),
-            # Experience
+            rx.divider(),
             experience(),
-            # projects
+            rx.divider(),
             projects(),
-            # Education
+            rx.divider(),
             education(),
             min_height="85vh",
             margin_top="50px",
@@ -34,25 +35,21 @@ def index() -> rx.Component:
         footer(),
         padding_top="0",
         background_color=rx.color_mode_cond(
-            light="#f2f2f2", dark="#121212"
+            light=Color.BACKGROUND_LIGHT.value, 
+            dark=Color.BACKGROUND_DARK.value
         ),
         color=rx.color_mode_cond(
-            light="#444750", dark="#d9d9d9"
+            light=TextColor.LIGHT.value, 
+            dark=TextColor.DARK.value
         ),
     )
 
 
 app = rx.App(
     theme=rx.theme(
-        appearance="light", accent_color="cyan"
+        radius="full", accent_color="cyan"
     ),
-    stylesheets=[
-        "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap",
-    ],
-    style = {
-        "--default-font-family": "--framer-font-family, Inter, Inter Placeholder, sans-serif",
-        "-webkit-font-smoothing": "antialiased",
-        "font-size": "14px",
-    }
+    stylesheets = STYLESHEETS,
+    style = BASE_STYLE
 )
 app.add_page(index)

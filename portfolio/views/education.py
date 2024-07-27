@@ -3,10 +3,9 @@ from portfolio.components.icon_badge import icon_badge, icon_map, since_block
 
 def education() -> rx.Component:
     return rx.vstack(
-        rx.text(
+        rx.heading(
             "Educación",
             size="5",
-            color=rx.color_mode_cond(light="black", dark="white"),
         ),
         rx.flex(
             rx.hstack(

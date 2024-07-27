@@ -1,4 +1,5 @@
 import reflex as rx
+from portfolio.styles.style import Color
 
 def navbar() -> rx.Component:
     return rx.hstack(
@@ -15,5 +16,8 @@ def navbar() -> rx.Component:
         position="sticky",
         z_index="999",
         top="0",
-        background_color=rx.color_mode_cond(light="#f2f2f2", dark="#121212"),
+        background_color=rx.color_mode_cond(
+            light=Color.BACKGROUND_LIGHT.value, 
+            dark=Color.BACKGROUND_DARK.value
+        ),
     )

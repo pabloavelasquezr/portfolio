@@ -3,10 +3,9 @@ from portfolio.components.icon_badge import icon_badge
 
 def projects() -> rx.Component:
     return rx.vstack(
-        rx.text(
+        rx.heading(
             "Proyectos",
             size="5",
-            color=rx.color_mode_cond(light="black", dark="white"),
         ),
         rx.hstack(
             icon_badge("monitor-play"),

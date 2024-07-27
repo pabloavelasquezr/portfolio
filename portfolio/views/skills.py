@@ -2,10 +2,9 @@ import reflex as rx
 
 def skills() -> rx.Component:
     return rx.vstack(
-            rx.text(
+            rx.heading(
                 "Competencias",
                 size="5",
-                color=rx.color_mode_cond(light="black", dark="white"),
             ),
             
             rx.list.unordered(
