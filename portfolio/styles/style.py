@@ -2,7 +2,8 @@ import reflex as rx
 from enum import Enum
 
 STYLESHEETS = [
-    "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+    "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
 ]
 
 BASE_STYLE = {
@@ -11,6 +12,10 @@ BASE_STYLE = {
     "font-size": "14px",
     rx.button: {
         "--cursor-button": "pointer"
+    },
+    rx.badge: {
+        "-webkit-user-select": "none",
+        "user-select": "none"
     }
 }
 

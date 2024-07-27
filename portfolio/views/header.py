@@ -1,5 +1,5 @@
 import reflex as rx
-from portfolio.components.icon_badge import icon_map
+from portfolio.components.icon_badge import icon_map, icon_button
 from portfolio.styles.style import TextColor
 
 
@@ -22,35 +22,10 @@ def header() -> rx.Component:
                 ),
                 icon_map("map-pin"," Bucaramanga, Colombia"),
                 rx.hstack(
-                    
-                    rx.link(
-                        rx.tooltip(
-                            rx.button(rx.icon("mail"),"pabloavelasquez@gmail.com",variant="solid"), 
-                            content="Email",
-                        ),
-                        href="mailto:pabloavelasquez@gmail.com",is_external=True
-                    ),
-                    rx.link(
-                        rx.tooltip(
-                            rx.button(rx.icon("file-text"),variant="surface"), 
-                            content="Hoja de vida",
-                        ),
-                        href="assets/CV_pablo_velasquez_en.pdf",is_external=True
-                    ),
-                    rx.link(
-                        rx.tooltip(
-                            rx.button(rx.icon("github"),variant="surface"), 
-                            content="GitHub",
-                        ),
-                        href="https://github.com/pabloavelasquezr",is_external=True
-                    ),
-                    rx.link(
-                        rx.tooltip(
-                            rx.button(rx.icon("linkedin"),variant="surface"), 
-                            content="LinkedIn",
-                        ),
-                        href="https://www.linkedin.com/in/pabloavelasquez/",is_external=True
-                    ),
+                    icon_button("mail","Email","mailto:pabloavelasquez@gmail.com","pabloavelasquez@gmail.com"),
+                    icon_button("file-text","Hoja de vida","/CV_pablo_velasquez_en.pdf"),
+                    icon_button("github","GitHub","https://github.com/pabloavelasquezr"),
+                    icon_button("linkedin","LinkedIn","https://www.linkedin.com/in/pabloavelasquez/"),
                     flex_wrap="wrap",
                 ),
                 align_items="start",
