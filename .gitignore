@@ -3,4 +3,7 @@
 .web
 __pycache__/
 assets/external/
+frontend.zip
+public.zip
+public/
 venv/
