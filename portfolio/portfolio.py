@@ -10,8 +10,8 @@ from portfolio.views.projects import projects
 from portfolio.views.footer import footer
 from portfolio.views.tech import tech
 
-class State(rx.State):
-    pass
+# class State(rx.State):
+#     pass
 
 
 def index() -> rx.Component:
