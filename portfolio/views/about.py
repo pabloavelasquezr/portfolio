@@ -8,6 +8,6 @@ def about() -> rx.Component:
             font_size=Size.H2.value,
         ),
         rx.text(
-            "lore ipsum dolor sit amet, consectetur adipiscing elit. in euismod ipsum et dui rhoncus, nec ultricies nunc ultricies. lorem ipsum dolor sit amet, consectetur adipiscing elit. in euismod ipsum et dui rhoncus, lore ipsum dolor sit amet, consectetur adipiscing elit. in euismod ipsum et dui rhoncus, nec ultricies nunc ultricies.",
+            "Soy un desarrollador de software con experiencia en el desarrollo de aplicaciones web con enfasis en el backend.",
         ),
     )

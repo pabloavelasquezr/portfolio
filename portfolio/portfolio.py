@@ -8,6 +8,7 @@ from portfolio.views.experience import experience
 from portfolio.views.education import education
 from portfolio.views.projects import projects
 from portfolio.views.footer import footer
+from portfolio.views.tech import tech
 
 class State(rx.State):
     pass
@@ -23,6 +24,8 @@ def index() -> rx.Component:
                 about(),
                 rx.divider(),
                 skills(),
+                rx.divider(),
+                tech(),
                 rx.divider(),
                 experience(),
                 rx.divider(),
