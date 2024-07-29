@@ -1,11 +1,12 @@
 import reflex as rx
 from portfolio.components.icon_badge import icon_badge, icon_button, icon_stack_exp
+from portfolio.styles.style import FontSize as Size
 
 def projects() -> rx.Component:
     return rx.vstack(
         rx.heading(
             "Proyectos",
-            size="5",
+            font_size=Size.H2.value,
         ),
         rx.hstack(
             icon_badge("monitor-play"),

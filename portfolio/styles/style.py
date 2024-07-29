@@ -1,6 +1,8 @@
 import reflex as rx
 from enum import Enum
 
+MAX_WIDTH = "880px"
+
 STYLESHEETS = [
     "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap",
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
@@ -16,17 +18,22 @@ BASE_STYLE = {
     rx.badge: {
         "-webkit-user-select": "none",
         "user-select": "none"
-    }
+    },
+    rx.heading: {
+        "font-family": "var(--default-font-family)",
+        "font-weight": "500",
+        "line-height": "1.2",
+        "margin-top": "0",
+        "margin-bottom": "0.5em",
+        "color": "var(--color-text)"
+    },
 }
 
-class Font(Enum):
-    DEFAULT = "poppins"
-    TITLE = "poppins"
-    LOGO = "Space Mono"
-
-class FontWeight(Enum):
-    LIGHT = "300"
-    MEDIUM = "500"
+class FontSize(Enum):
+    H1 = "1.714em"
+    H2 = "1.429em"
+    H3 = "1.143em"
+    H4 = "1.071em"
 
 class Color(Enum):
     BACKGROUND_LIGHT = '#f2f2f2"'

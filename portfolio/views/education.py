@@ -1,11 +1,12 @@
 import reflex as rx
 from portfolio.components.icon_badge import icon_badge, icon_map, since_block
+from portfolio.styles.style import FontSize as Size
 
 def education() -> rx.Component:
     return rx.vstack(
         rx.heading(
             "Educación",
-            size="5",
+            font_size=Size.H2.value,
         ),
         rx.flex(
             rx.hstack(

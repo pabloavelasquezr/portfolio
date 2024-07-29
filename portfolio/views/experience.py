@@ -1,11 +1,12 @@
 import reflex as rx
 from portfolio.components.icon_badge import icon_badge, since_block
+from portfolio.styles.style import FontSize as Size
 
 def experience() -> rx.Component:
     return rx.vstack(
         rx.heading(
             "Experiencia",
-            size="5",
+            font_size=Size.H2.value,
         ),
 
         rx.flex(
@@ -14,11 +15,11 @@ def experience() -> rx.Component:
                 rx.vstack(
                     rx.heading(
                         "AI Code Reviewer",
-                        size="3",
+                        font_size=Size.H3.value,
                     ),
                     rx.heading(
                         "Revelo",
-                        size="2",
+                        font_size=Size.H4.value,
                         color_scheme="gray",
                     ),
                     rx.list.unordered(
@@ -38,11 +39,11 @@ def experience() -> rx.Component:
                 rx.vstack(
                     rx.heading(
                         "Administrador de plataformas",
-                        size="3",
+                        font_size=Size.H3.value,
                     ),
                     rx.heading(
                         "Universidad Externado de Colombia",
-                        size="2",
+                        font_size=Size.H4.value,
                         color_scheme="gray",
                     ),
                     rx.list.unordered(
@@ -65,11 +66,11 @@ def experience() -> rx.Component:
                 rx.vstack(
                     rx.heading(
                         "Gestor de Proyectos",
-                        size="3",
+                        font_size=Size.H3.value,
                     ),
                     rx.heading(
                         "Telefónica Educación Digital",
-                        size="2",
+                        font_size=Size.H4.value,
                         color_scheme="gray",
                     ),
                     rx.list.unordered(
@@ -92,11 +93,11 @@ def experience() -> rx.Component:
                 rx.vstack(
                     rx.heading(
                         "Administrativo y gestión",
-                        size="3",
+                        font_size=Size.H3.value,
                     ),
                     rx.heading(
                         "Universidad de Valencia",
-                        size="2",
+                        font_size=Size.H4.value,
                         color_scheme="gray",
                     ),
                     rx.list.unordered(
@@ -115,11 +116,11 @@ def experience() -> rx.Component:
                 rx.vstack(
                     rx.heading(
                         "Administrador de Sistemas y Tecnologías de Información",
-                        size="3",
+                        font_size=Size.H3.value,
                     ),
                     rx.heading(
                         "Universidad Autónoma de Bucaramanga, UNAB Virtual",
-                        size="2",
+                        font_size=Size.H4.value,
                         color_scheme="gray",
                     ),
                     rx.list.unordered(
@@ -138,11 +139,11 @@ def experience() -> rx.Component:
                 rx.vstack(
                     rx.heading(
                         "Profesional Elearning",
-                        size="3",
+                        font_size=Size.H3.value,
                     ),
                     rx.heading(
                         "Universidad Autónoma de Bucaramanga, UNAB Virtual",
-                        size="2",
+                        font_size=Size.H4.value,
                         color_scheme="gray",
                     ),
                     rx.list.unordered(

@@ -1,6 +1,7 @@
 import reflex as rx
 from portfolio.components.icon_badge import icon_map, icon_button
 from portfolio.styles.style import TextColor
+from portfolio.styles.style import FontSize as Size
 
 
 def header() -> rx.Component:
@@ -16,7 +17,10 @@ def header() -> rx.Component:
                 )
             ),
             rx.vstack(
-                rx.heading("Pablo Velásquez", size="6"),
+                rx.heading(
+                    "Pablo Velásquez",
+                     font_size=Size.H1.value
+                ),
                 rx.text(
                     "Software Developer | Python | Systems Engineer | LMS | E-Learning"
                 ),

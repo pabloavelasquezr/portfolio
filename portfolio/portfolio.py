@@ -1,5 +1,5 @@
 import reflex as rx
-from portfolio.styles.style import STYLESHEETS, BASE_STYLE, Color, TextColor
+from portfolio.styles.style import STYLESHEETS, BASE_STYLE, Color, TextColor, MAX_WIDTH
 from portfolio.components.navbar import navbar
 from portfolio.views.header import header
 from portfolio.views.about import about
@@ -14,25 +14,28 @@ class State(rx.State):
 
 
 def index() -> rx.Component:
-    # Welcome Page (Index)
-    return rx.container(
-        navbar(),
-        
-        rx.vstack(
-            header(),
-            about(),
-            rx.divider(),
-            skills(),
-            rx.divider(),
-            experience(),
-            rx.divider(),
-            projects(),
-            rx.divider(),
-            education(),
-            min_height="85vh",
-            margin_top="50px",
+    return rx.center(
+        rx.container(
+            navbar(),
+            
+            rx.vstack(
+                header(),
+                about(),
+                rx.divider(),
+                skills(),
+                rx.divider(),
+                experience(),
+                rx.divider(),
+                projects(),
+                rx.divider(),
+                education(),
+                min_height="85vh",
+                margin_top="50px",
+            ),
+            footer(),
+            max_width=MAX_WIDTH,
+            width="100%"
         ),
-        footer(),
         padding_top="0",
         background_color=rx.color_mode_cond(
             light=Color.BACKGROUND_LIGHT.value, 
@@ -43,7 +46,6 @@ def index() -> rx.Component:
             dark=TextColor.DARK.value
         ),
     )
-
 
 app = rx.App(
     theme=rx.theme(

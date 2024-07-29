@@ -1,10 +1,11 @@
 import reflex as rx
+from portfolio.styles.style import FontSize as Size
 
 def skills() -> rx.Component:
     return rx.vstack(
             rx.heading(
                 "Competencias",
-                size="5",
+                font_size=Size.H2.value,
             ),
             
             rx.list.unordered(
