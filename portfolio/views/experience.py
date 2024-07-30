@@ -31,6 +31,7 @@ def experience() -> rx.Component:
             ),
             since_block("mayo 2024 - actualidad","map-pin","Miami, Estados Unidos"),
             flex_direction=["column-reverse", "row"],
+            gap = "var(--space-3);"
         ),
 
         rx.flex(
@@ -58,6 +59,7 @@ def experience() -> rx.Component:
             ),
             since_block("junio 2017 - noviembre 2023","map-pin","Bogotá, Colombia"),
             flex_direction=["column-reverse", "row"],
+            gap = "var(--space-3);"
         ),
 
         rx.flex(
@@ -85,6 +87,7 @@ def experience() -> rx.Component:
             ),
             since_block("febrero 2016 - mayo 2017","map-pin","Bogotá, Colombia"),
             flex_direction=["column-reverse", "row"],
+            gap = "var(--space-3);"
         ),
 
         rx.flex(
@@ -108,6 +111,7 @@ def experience() -> rx.Component:
             ),
             since_block("febrero 2015 - mayo 2015","map-pin","Valencia, España"),
             flex_direction=["column-reverse", "row"],
+            gap = "var(--space-3);"
         ),
 
         rx.flex(
@@ -131,6 +135,7 @@ def experience() -> rx.Component:
             ),
             since_block("febrero 2011 - septiembre 2014","map-pin","Bucaramanga, Colombia"),
             flex_direction=["column-reverse", "row"],
+            gap = "var(--space-3);"
         ),
 
         rx.flex(
@@ -153,5 +158,7 @@ def experience() -> rx.Component:
             ),
             since_block("octubre 2008 - enero 2011","map-pin","Bucaramanga, Colombia"),
             flex_direction=["column-reverse", "row"],
-        )
+            gap = "var(--space-3);"
+        ),
+        gap = "var(--space-6);"
     )

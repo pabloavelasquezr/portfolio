@@ -1,11 +1,12 @@
 import reflex as rx
 from portfolio.components.icon_badge import icon_stack_exp
+from portfolio.styles.style import FontSize as Size
 
 def tech() -> rx.Component:
     return rx.vstack(
         rx.heading(
             "Tecnologías",
-            font_size="1.5rem",
+            font_size=Size.H2.value,
         ),
         rx.text(
             "Estas son las tecnologías que he utilizado en mis proyectos:",

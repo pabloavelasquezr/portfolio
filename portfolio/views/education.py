@@ -22,7 +22,9 @@ def education() -> rx.Component:
                 width="100%"
             ),
             since_block("octubre 2014 - julio 2015","map-pin","Valencia, España"),
-            flex_direction=["column-reverse", "row"],width="100%"
+            flex_direction=["column-reverse", "row"],
+            width="100%",
+            gap = "var(--space-3);"
         ),
         rx.flex(
             rx.hstack(
@@ -38,7 +40,9 @@ def education() -> rx.Component:
                 width="100%"
             ),
             since_block("febrero 2009 - julio 2010","map-pin","Bucaramanga, Colombia"),
-            flex_direction=["column-reverse", "row"],width="100%"
+            flex_direction=["column-reverse", "row"],
+            width="100%",
+            gap = "var(--space-3);"
         ),
         rx.flex(
             rx.hstack(
@@ -54,7 +58,10 @@ def education() -> rx.Component:
                 width="100%"
             ),
             since_block("febrero 2002 - julio 2007","map-pin","Bucaramanga, Colombia"),
-            flex_direction=["column-reverse", "row"],width="100%"
+            flex_direction=["column-reverse", "row"],
+            width="100%",
+            gap = "var(--space-3);"
         ),
-        width="100%"
+        width="100%",
+        gap = "var(--space-6);"
     )

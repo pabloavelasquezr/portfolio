@@ -26,7 +26,7 @@ def since_block(dates: str, icon,text) -> rx.Component:
             text,
             display="inherit",color_scheme="gray"
         ),
-        align_items="end",
+        align_items=["baseline","end"],
         min_width="200px",
     ),
 
