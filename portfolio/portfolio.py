@@ -37,7 +37,8 @@ def index() -> rx.Component:
             ),
             footer(),
             max_width=MAX_WIDTH,
-            width="100%"
+            width="100%",
+            padding="0px 16px 16px 16px",
         ),
         padding_top="0",
         background_color=rx.color_mode_cond(
