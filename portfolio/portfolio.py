@@ -57,4 +57,14 @@ app = rx.App(
     stylesheets = STYLESHEETS,
     style = BASE_STYLE
 )
-app.add_page(index)
+app.add_page(
+    index,
+    title="Pablo Velásquez",
+    description="Software Developer | Python | Systems Engineer | LMS | E-Learning",
+    image="pablo_avatar.jpg",
+    meta=[
+        {"name": "og:title", "content": "Pablo Velásquez",},
+        {"name": "og:description", "content": "Software Developer | Python | Systems Engineer | LMS | E-Learning",},
+        {"name": "og:image", "content": "pablo_avatar.jpg",}
+    ]
+    )
