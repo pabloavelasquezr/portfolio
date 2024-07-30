@@ -3,10 +3,16 @@ from portfolio.styles.style import Color
 
 def navbar() -> rx.Component:
     return rx.hstack(
-        rx.box(
-            rx.text("pablo", as_="span"),
-            rx.text("a", as_="span"),
-            rx.text("velasquez", as_="span"),
+        rx.link(
+            rx.box(
+                rx.text("pablo", as_="span", font_weight="bold"),
+                rx.text("a", as_="span"),
+                rx.text("velasquez", as_="span"),
+                rx.text(".dev", as_="span", font_weight="bold"),
+                font_family="Space Mono, monospace",
+                font_size="1.143em",
+            ),
+            href="https://pabloavelasquez.dev",
         ),
         rx.box(
             rx.color_mode.button(),

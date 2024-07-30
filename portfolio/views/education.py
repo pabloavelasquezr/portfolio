@@ -12,8 +12,10 @@ def education() -> rx.Component:
             rx.hstack(
                 icon_badge("graduation-cap"),
                 rx.vstack(
-                    rx.text(
-                        "Máster en Creación y Gestión de Empresas Innovadora"
+                    rx.heading(
+                        "Máster en Creación y Gestión de Empresas Innovadora",
+                        font_size=Size.H3.value,
+                        color_scheme="gray",
                     ),
                     rx.text(
                         "Universidad de Valencia"
@@ -24,14 +26,16 @@ def education() -> rx.Component:
             since_block("octubre 2014 - julio 2015","map-pin","Valencia, España"),
             flex_direction=["column-reverse", "row"],
             width="100%",
-            gap = "var(--space-3);"
+            gap = "var(--space-4);"
         ),
         rx.flex(
             rx.hstack(
                 icon_badge("library-big"),
                 rx.vstack(
-                    rx.text(
-                        "Especialista en Tecnologías Avanzadas para el Desarrollo de Software"
+                    rx.heading(
+                        "Especialista en Tecnologías Avanzadas para el Desarrollo de Software",
+                        font_size=Size.H3.value,
+                        color_scheme="gray",
                     ),
                     rx.text(
                         "Universidad Autónoma de Bucaramanga"
@@ -42,14 +46,16 @@ def education() -> rx.Component:
             since_block("febrero 2009 - julio 2010","map-pin","Bucaramanga, Colombia"),
             flex_direction=["column-reverse", "row"],
             width="100%",
-            gap = "var(--space-3);"
+            gap = "var(--space-4);"
         ),
         rx.flex(
             rx.hstack(
                 icon_badge("book-open-check"),
                 rx.vstack(
-                    rx.text(
-                        "Ingeniero de Sistemas"
+                    rx.heading(
+                        "Ingeniero de Sistemas",
+                        font_size=Size.H3.value,
+                        color_scheme="gray",
                     ),
                     rx.text(
                         "Universitaria de Investigación y Desarrollo"
@@ -60,7 +66,7 @@ def education() -> rx.Component:
             since_block("febrero 2002 - julio 2007","map-pin","Bucaramanga, Colombia"),
             flex_direction=["column-reverse", "row"],
             width="100%",
-            gap = "var(--space-3);"
+            gap = "var(--space-4);"
         ),
         width="100%",
         gap = "var(--space-6);"

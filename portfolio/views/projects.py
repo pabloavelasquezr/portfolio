@@ -8,15 +8,16 @@ def projects() -> rx.Component:
             "Proyectos",
             font_size=Size.H2.value,
         ),
-        rx.hstack(
+        rx.flex(
             rx.hstack(
                 icon_badge("monitor-play"),
                 rx.vstack(
-                    rx.text(
-                        "Streaming-Service"
+                    rx.heading(
+                        "Streaming-Service",
+                        font_size=Size.H3.value,
                     ),
                     rx.text(
-                        "(PHP Laravel MySQL y Bootstrap) **XAMPP 8.2 / PHP 8.2**"
+                        "Sistema de visualización de animes, con panel de administración y sistema de comentarios. Hecho bajo CRUD."
                     ),
                     rx.hstack(
                         icon_stack_exp("devicon-php-plain","PHP"),
@@ -32,23 +33,20 @@ def projects() -> rx.Component:
                     ),
                 ),
             ),
-            rx.card(
-                rx.hover_card.root(
-                    rx.hover_card.trigger(
-                        rx.image(
-                            src="streaming_service_thumbnail.jpg",
-                            border_radius="10px",
-                        ),
+            rx.vstack(
+                rx.card(
+                    rx.image(
+                        src="streaming_service_thumbnail.jpg",
+                        border_radius="10px",
                     ),
-                    rx.hover_card.content(
-                        rx.image(src="streaming_service.png",border_radius="10px",),
-                    ),
+                    width= "max-content",
                 ),
-                max_width="350px"
+                align_items="end",
+                min_width="334px"
             ),
-            width="100%",
-            justify="between",
-            flex_wrap="wrap",
+            flex_direction=["column", "column", "row", "row", "row"],
+            gap = "var(--space-3);"
         ),
-        width="100%"
+
+        gap = "var(--space-6);"
     )
