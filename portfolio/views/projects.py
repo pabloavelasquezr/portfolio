@@ -36,11 +36,12 @@ def projects() -> rx.Component:
                 rx.hover_card.root(
                     rx.hover_card.trigger(
                         rx.image(
-                            src="/streaming_service_thumbnail.jpg",
+                            src="streaming_service_thumbnail.jpg",
+                            border_radius="10px",
                         ),
                     ),
                     rx.hover_card.content(
-                        rx.image(src="/streaming_service.png"),
+                        rx.image(src="streaming_service.png",border_radius="10px",),
                     ),
                 ),
                 max_width="350px"
