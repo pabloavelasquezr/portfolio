@@ -7,13 +7,18 @@ from portfolio.styles.style import FontSize as Size
 def header() -> rx.Component:
     return rx.vstack(
         rx.hstack(
-            rx.avatar(
-                src="pablo_avatar.jpg",
-                size="6",
-                _hover={
-                    "-webkit-filter": "grayscale(0%)",
-                    "filter": "grayscale(0%)",                    
-                },
+            rx.tooltip(    
+                rx.avatar(
+                    src="pablo_avatar.jpg",
+                    size="6",
+                    _hover={
+                        "-webkit-filter": "grayscale(0%)",
+                        "filter": "grayscale(0%)",                    
+                    },
+                ),
+                content=f"Hola :-) 🖐",
+                align="start",
+                align_offset=30,
             ),
             rx.vstack(
                 rx.heading(
