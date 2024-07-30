@@ -9,12 +9,11 @@ def header() -> rx.Component:
         rx.hstack(
             rx.avatar(
                 src="pablo_avatar.jpg",
-                size="7",
-                border="1px solid",
-                border_color=rx.color_mode_cond(
-                    light=TextColor.LIGHT.value, 
-                    dark=TextColor.DARK.value
-                )
+                size="6",
+                _hover={
+                    "-webkit-filter": "grayscale(0%)",
+                    "filter": "grayscale(0%)",                    
+                },
             ),
             rx.vstack(
                 rx.heading(

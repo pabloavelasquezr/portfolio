@@ -27,6 +27,18 @@ BASE_STYLE = {
         "margin-bottom": "0.5em",
         "color": "var(--color-text)"
     },
+    rx.avatar: {
+        "-webkit-filter": "grayscale(100%)",
+        "filter": "grayscale(100%)",
+        "user-drag": "none",
+        "-webkit-user-drag": "none",
+        "user-select": "none",
+        "-moz-user-select": "none",
+        "-webkit-user-select": "none",
+        "-ms-user-select": "none",
+        "draggable": "false",
+        # "pointer-events": "none"
+    }
 }
 
 class FontSize(Enum):
