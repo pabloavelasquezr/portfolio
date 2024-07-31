@@ -1,0 +1,277 @@
+{
+    "title": "Pablo Velásquez | Portafolio",
+    "description": "Software Developer | Python | Systems Engineer | LMS | E-Learning",
+    "image": "favicon.ico",
+    "avatar": "pablo_avatar.jpg",
+    "name": "Pablo Velásquez",
+    "skill": "Software Developer",
+    "location": "Bucaramanga, Colombia",
+    "greeting": "Hola :-)🖐",
+    "media": {
+        "email": "pabloavelasquez@gmail.com",
+        "cv": "CV_pablo_velasquez_en.pdf",
+        "tooltipcv": "Hoja de vida",
+        "github": "https://github.com/pabloavelasquezr",
+        "likedin": "https://www.linkedin.com/in/pabloavelasquez/"
+    },
+    "abouttitle": "Sobre mí",
+    "about": "Soy un desarrollador de software con experiencia en el desarrollo de aplicaciones web con enfasis en el backend.",
+    "skillstitle": "Competencias",
+    "skills": [
+        {
+            "skill": "Capacidad para trabajar en un equipo multidisciplinar, buscando el éxito del grupo en cada proyecto."
+        },
+        {
+            "skill": "Trabajador muy dinámico, proactivo, ingenioso, muy buen evaluador del tiempo necesario para realizar las tareas, analítico, metódico, riguroso y detallista, sentido de la iniciativa, adaptabilidad, con buenas dotes de comunicación."
+        },
+        {
+            "skill": "Evangelista de back-end de Python: lógica orientada a subprocesos de bajo nivel, ciencia de datos, multiprocesamiento, API, integración de sistemas."
+        },
+        {
+            "skill": "Fuertes habilidades en HTML, JavaScript, PHP, CSS."
+        },
+        {
+            "skill": "Habilidades y conocimientos promedio en Python."
+        },
+        {
+            "skill": "Diseño, implementación y mantenimiento de bases de datos MongoDB y MySQL."
+        },
+        {
+            "skill": "Muy familiarizado con Microsoft Power BI."
+        },
+        {
+            "skill": "Programación de macros en MS Office."
+        },
+        {
+            "skill": "Administración de MS Active Directory en tareas de mesa de ayuda."
+        }
+    ],
+    "technologiestitle": "Tecnologías",
+    "technologies": [
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-django-plain",
+            "name": "Django"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "devicon-react-original",
+            "name": "React"
+        },
+        {
+            "icon": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+        },
+        {
+            "icon": "devicon-mysql-plain",
+            "name": "MySQL"
+        },
+        {
+            "icon": "devicon-html5-plain",
+            "name": "HTML5"
+        },
+        {
+            "icon": "devicon-css3-plain",
+            "name": "CSS3"
+        },
+        {
+            "icon": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-github-original",
+            "name": "GitHub"
+        },
+        {
+            "icon": "devicon-vscode-plain",
+            "name": "VS Code"
+        }
+    ],
+    "experiencetitle": "Experiencia",
+    "experience": [
+        {
+            "icon": "brain",
+            "title": "AI Code Reviewer",
+            "subtitle": "Revelo",
+            "description": [
+                {
+                    "item": "Entrenar modelos de inteligencia artificial generativa en lenguaje SQL, fomentando su desarrollo como codificadores expertos y contribuyendo a la creación de herramientas de codificación avanzadas para la próxima generación."
+                },
+                {
+                    "item": "Revisión de código generado por IA, concentrándose en resolver desafíos de codificación mediante la creación de soluciones de código funcionales y eficientes."
+                },
+                {
+                    "item": "Desarrollo de casos de prueba sólidos para validar la eficiencia y la eficacia del código."
+                }
+            ],
+            "date": "mayo 2024 - actualidad",
+            "place": "Miami, Estados Unidos"
+        },
+        {
+            "icon": "braces",
+            "title": "Administrador de plataformas",
+            "subtitle": "Universidad Externado de Colombia",
+            "description": [
+                {
+                    "item": "Desarrollo de aplicaciones utilizando Python, Django, Javascript, React y MySQL."
+                },
+                {
+                    "item": "Generar nuevas ideas y mejoras a los proyectos actuales."
+                },
+                {
+                    "item": "Integración del directorio activo con (Wordpress/buddypress) y Moodle, mejorando el acceso de 10.000 usuarios."
+                },
+                {
+                    "item": "Creación de consultas SQL, generando más de 40 reportes para uso gerencial."
+                },
+                {
+                    "item": "Desarrollo de dashboards en Power BI."
+                },
+                {
+                    "item": "Administración de MS Active Directory en tareas de mesa de ayuda."
+                }
+            ],
+            "date": "junio 2017 - noviembre 2023",
+            "place": "Bogotá, Colombia"
+        },
+        {
+            "icon": "presentation",
+            "title": "Gestor de Proyectos",
+            "subtitle": "Telefónica Educación Digital",
+            "description": [
+                {
+                    "item": "Informes de progreso semanales a la gerencia."
+                },
+                {
+                    "item": "Gestionar los controles de calidad de los productos y los procesos de aseguramiento de la calidad en las líneas de producción."
+                },
+                {
+                    "item": "Generar nuevas ideas y mejoras a los productos actuales."
+                },
+                {
+                    "item": "Planificador de redes para nuevos proyectos."
+                },
+                {
+                    "item": "Planificación de proyectos educativos en cada faceta, identificando los recursos necesarios, las actividades a realizar, los plazos y costes previstos en el presupuesto."
+                },
+                {
+                    "item": "Manejo de buenas relaciones externas del proyecto con clientes, proveedores y subcontratistas."
+                }
+            ],
+            "date": "febrero 2016 - mayo 2017",
+            "place": "Bogotá, Colombia"
+        },
+        {
+            "icon": "database",
+            "title": "Administrativo y gestión",
+            "subtitle": "Universidad de Valencia",
+            "description": [
+                {
+                    "item": "Actividades de apoyo administrativo y de gestión educativa al Máster en Creación y Gestión de Empresas Innovadoras (Master EI)."
+                },
+                {
+                    "item": "Elaboración de bases de datos para la línea de investigación “Emtrepreneurship e Innovación”."
+                }
+            ],
+            "date": "febrero 2015 - mayo 2015",
+            "place": "Valencia, España"
+        },
+        {
+            "icon": "code",
+            "title": "Administrador de Sistemas y Tecnologías de Información",
+            "subtitle": "Universidad Autónoma de Bucaramanga, UNAB Virtual",
+            "description": [
+                {
+                    "item": "Crear manuales de operación y documentos de mantenimiento."
+                },
+                {
+                    "item": "Ofrecer atención al cliente, capacitación y soporte técnico para la operación, mantenimiento, uso y administración diarios en Blackboard y Moodle LMS, obteniendo un 99% de estabilidad en el servicio."
+                }
+            ],
+            "date": "febrero 2011 - septiembre 2014",
+            "place": "Bucaramanga, Colombia"
+        },
+        {
+            "icon": "code-xml",
+            "title": "Profesional Elearning",
+            "subtitle": "Universidad Autónoma de Bucaramanga, UNAB Virtual",
+            "description": [
+                {
+                    "item": "Diseño, programación y desarrollo de nuevas tecnologías para diversos proyectos en el área de e-learning en tecnologías HTML5 con manejo de API SCORM 1.2. Administración y soporte de las plataformas Blackboard y Moodle LMS."
+                }
+            ],
+            "date": "octubre 2008 - enero 2011",
+            "place": "Bucaramanga, Colombia"
+        }
+    ],
+    "projectstitle": "Proyectos",
+    "projects": [
+        {
+            "icon": "monitor-play",
+            "title": "Streaming-Service",
+            "description": "Sistema de visualización de animes, con panel de administración y sistema de comentarios. Hecho bajo CRUD.",
+            "technologies": [
+                {
+                    "icon": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "icon": "devicon-laravel-plain",
+                    "name": "Laravel"
+                },
+                {
+                    "icon": "devicon-mysql-plain",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                }
+            ],
+            "tooltipurl": "Streaming-Service",
+            "url": "http://animestream.wuaze.com",
+            "tooltipgithub": "GitHub Streaming-Service",
+            "github": "https://github.com",
+            "image": "streaming_service_thumbnail.jpg"
+        }
+    ],
+    "educationtitle": "Educación",
+    "education": [
+        {
+            "icon": "graduation-cap",
+            "title": "Máster en Creación y Gestión de Empresas Innovadora",
+            "description": "Universidad de Valencia",
+            "date": "octubre 2014 - julio 2015",
+            "place": "Valencia, España"
+        },
+        {
+            "icon": "library-big",
+            "title": "Especialista en Tecnologías Avanzadas para el Desarrollo de Software",
+            "description": "Universidad Autónoma de Bucaramanga",
+            "date": "febrero 2009 - julio 2010",
+            "place": "Bucaramanga, Colombia"
+        },
+        {
+            "icon": "book-open-check",
+            "title": "Ingeniero de Sistemas",
+            "description": "Universitaria de Investigación y Desarrollo",
+            "date": "febrero 2002 - julio 2007",
+            "place": "Bucaramanga, Colombia"
+        }
+    ],
+    "footer": {
+        "author": "Pablo Velásquez",
+        "city": "📍Bucaramanga, Colombia",
+        "made": "hecho en Reflex y Python🐍 con ❤️"
+    }
+}
