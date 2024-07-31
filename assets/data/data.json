@@ -243,34 +243,6 @@
             "tooltipgithub": "GitHub Streaming-Service",
             "github": "https://github.com",
             "image": "streaming_service_thumbnail.jpg"
-        },
-        {
-            "icon": "monitor-play",
-            "title": "Streaming-Service",
-            "description": "Sistema de visualización de animes, con panel de administración y sistema de comentarios. Hecho bajo CRUD.",
-            "technologies": [
-                {
-                    "icon": "devicon-php-plain",
-                    "name": "PHP"
-                },
-                {
-                    "icon": "devicon-laravel-plain",
-                    "name": "Laravel"
-                },
-                {
-                    "icon": "devicon-mysql-plain",
-                    "name": "MySQL"
-                },
-                {
-                    "icon": "devicon-bootstrap-plain",
-                    "name": "Bootstrap"
-                }
-            ],
-            "tooltipurl": "Streaming-Service",
-            "url": "http://animestream.wuaze.com",
-            "tooltipgithub": "GitHub Streaming-Service",
-            "github": "https://github.com",
-            "image": "streaming_service_thumbnail.jpg"
         }
     ],
     "educationtitle": "Educación",

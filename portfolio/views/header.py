@@ -1,6 +1,5 @@
 import reflex as rx
 from portfolio.components.icon_badge import icon_map, icon_button
-from portfolio.styles.style import TextColor
 from portfolio.styles.style import FontSize as Size
 
 
@@ -16,7 +15,7 @@ def header(data) -> rx.Component:
                         "filter": "grayscale(0%)",
                     },
                 ),
-                content=f"{data.greeting}🖐",
+                content=data.greeting,
                 align="start",
                 align_offset=30,
             ),
