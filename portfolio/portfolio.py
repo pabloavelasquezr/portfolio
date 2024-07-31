@@ -1,4 +1,5 @@
 import reflex as rx
+from portfolio import data
 from portfolio.styles.style import STYLESHEETS, BASE_STYLE, Color, TextColor, MAX_WIDTH
 from portfolio.components.navbar import navbar
 from portfolio.views.header import header
@@ -12,7 +13,7 @@ from portfolio.views.tech import tech
 
 # class State(rx.State):
 #     pass
-
+DATA = data.data
 
 def index() -> rx.Component:
     return rx.center(
@@ -20,22 +21,22 @@ def index() -> rx.Component:
             navbar(),
             
             rx.vstack(
-                header(),
-                about(),
+                header(DATA),
+                about(DATA),
                 rx.divider(),
-                skills(),
+                skills(DATA),
                 rx.divider(),
-                tech(),
+                tech(DATA),
                 rx.divider(),
-                experience(),
+                experience(DATA),
                 rx.divider(),
-                projects(),
+                projects(DATA),
                 rx.divider(),
-                education(),
+                education(DATA),
                 min_height="85vh",
                 margin_top="50px",
             ),
-            footer(),
+            footer(DATA),
             max_width=MAX_WIDTH,
             width="100%",
             padding="0px 16px 16px 16px",
@@ -60,12 +61,12 @@ app = rx.App(
 )
 app.add_page(
     index,
-    title="Pablo Velásquez",
-    description="Software Developer | Python | Systems Engineer | LMS | E-Learning",
-    image="pablo_avatar.jpg",
+    title=DATA.title,
+    description=DATA.description,
+    image=DATA.image,
     meta=[
-        {"name": "og:title", "content": "Pablo Velásquez",},
-        {"name": "og:description", "content": "Software Developer | Python | Systems Engineer | LMS | E-Learning",},
-        {"name": "og:image", "content": "pablo_avatar.jpg",}
+        {"name": "og:title", "content": DATA.title,},
+        {"name": "og:description", "content": DATA.description,},
+        {"name": "og:image", "content": DATA.image,}
     ]
     )

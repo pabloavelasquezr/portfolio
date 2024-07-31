@@ -4,36 +4,36 @@ from portfolio.styles.style import TextColor
 from portfolio.styles.style import FontSize as Size
 
 
-def header() -> rx.Component:
+def header(data) -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.tooltip(    
                 rx.avatar(
-                    src="pablo_avatar.jpg",
+                    src=data.avatar,
                     size="6",
                     _hover={
                         "-webkit-filter": "grayscale(0%)",
-                        "filter": "grayscale(0%)",                    
+                        "filter": "grayscale(0%)",
                     },
                 ),
-                content=f"Hola :-) 🖐",
+                content=f"{data.greeting}🖐",
                 align="start",
                 align_offset=30,
             ),
             rx.vstack(
                 rx.heading(
-                    "Pablo Velásquez",
+                    data.name,
                      font_size=Size.H1.value
                 ),
                 rx.text(
-                    "Software Developer | Python | Systems Engineer | LMS | E-Learning"
+                    data.description,
                 ),
-                icon_map("map-pin"," Bucaramanga, Colombia"),
+                icon_map("map-pin",data.location),
                 rx.hstack(
-                    icon_button("mail","Email","mailto:pabloavelasquez@gmail.com","pabloavelasquez@gmail.com"),
-                    icon_button("file-text","Hoja de vida","/CV_pablo_velasquez_en.pdf"),
-                    icon_button("github","GitHub","https://github.com/pabloavelasquezr"),
-                    icon_button("linkedin","LinkedIn","https://www.linkedin.com/in/pabloavelasquez/"),
+                    icon_button("mail","Email",f"mailto:{data.media.email}",data.media.email),
+                    icon_button("file-text",data.media.tooltipcv,data.media.cv),
+                    icon_button("github","GitHub",data.media.github),
+                    icon_button("linkedin","LinkedIn",data.media.likedin),
                     flex_wrap="wrap",
                 ),
                 align_items="start",
