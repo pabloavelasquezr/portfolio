@@ -105,7 +105,14 @@ class Data:
         self.education = [Education(**info) for info in education]
         self.footer = Footer(**footer)
 
-with open("assets/data/data.json", encoding="utf-8") as file:
+with open("assets/data/data-en.json", encoding="utf-8") as file:
     json_data = json.load(file)
 
-data = Data(**json_data)
+data_en = Data(**json_data)
+
+
+
+with open("assets/data/data-es.json", encoding="utf-8") as file:
+    json_data = json.load(file)
+
+data_es = Data(**json_data)

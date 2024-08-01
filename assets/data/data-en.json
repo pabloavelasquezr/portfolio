@@ -1,0 +1,277 @@
+{
+    "title": "Pablo Velásquez | Portfolio",
+    "description": "Software Developer | Python | Systems Engineer | LMS | E-Learning",
+    "image": "favicon.ico",
+    "avatar": "pablo_avatar.jpg",
+    "name": "Pablo Velásquez",
+    "skill": "Software Developer",
+    "location": "Bucaramanga, Colombia",
+    "greeting": "Hello :-)🖐",
+    "media": {
+        "email": "pabloavelasquez@gmail.com",
+        "cv": "CV_pablo_velasquez_en.pdf",
+        "tooltipcv": "Curriculum Vitae",
+        "github": "https://github.com/pabloavelasquezr",
+        "likedin": "https://www.linkedin.com/in/pabloavelasquez/"
+    },
+    "abouttitle": "About Me",
+    "about": "I am a software developer with experience in web application development with a focus on the backend.",
+    "skillstitle": "Skills",
+    "skills": [
+        {
+            "skill": "Ability to work in a multidisciplinary team, seeking the success of the group in each project."
+        },
+        {
+            "skill": "Very dynamic, proactive, resourceful, excellent evaluator of the time needed to perform tasks, analytical, methodical, rigorous and detail-oriented, initiative-driven, adaptable, with good communication skills."
+        },
+        {
+            "skill": "Python backend evangelist: low-level thread-oriented logic, data science, multiprocessing, API, system integration."
+        },
+        {
+            "skill": "Strong skills in HTML, JavaScript, PHP, CSS."
+        },
+        {
+            "skill": "Average skills and knowledge in Python."
+        },
+        {
+            "skill": "Design, implementation, and maintenance of MongoDB and MySQL databases."
+        },
+        {
+            "skill": "Very familiar with Microsoft Power BI."
+        },
+        {
+            "skill": "Programming macros in MS Office."
+        },
+        {
+            "skill": "MS Active Directory administration in help desk tasks."
+        }
+    ],
+    "technologiestitle": "Technologies",
+    "technologies": [
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-django-plain",
+            "name": "Django"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "devicon-react-original",
+            "name": "React"
+        },
+        {
+            "icon": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+        },
+        {
+            "icon": "devicon-mysql-plain",
+            "name": "MySQL"
+        },
+        {
+            "icon": "devicon-html5-plain",
+            "name": "HTML5"
+        },
+        {
+            "icon": "devicon-css3-plain",
+            "name": "CSS3"
+        },
+        {
+            "icon": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-github-original",
+            "name": "GitHub"
+        },
+        {
+            "icon": "devicon-vscode-plain",
+            "name": "VS Code"
+        }
+    ],
+    "experiencetitle": "Experience",
+    "experience": [
+        {
+            "icon": "brain",
+            "title": "AI Code Reviewer",
+            "subtitle": "Revelo",
+            "description": [
+                {
+                    "item": "Train generative AI models in SQL language, fostering their development as expert coders and contributing to the creation of advanced coding tools for the next generation."
+                },
+                {
+                    "item": "Review AI-generated code, focusing on solving coding challenges by creating functional and efficient code solutions."
+                },
+                {
+                    "item": "Develop robust test cases to validate code efficiency and effectiveness."
+                }
+            ],
+            "date": "May 2024 - Present",
+            "place": "Miami, United States"
+        },
+        {
+            "icon": "braces",
+            "title": "Platform Administrator",
+            "subtitle": "Universidad Externado de Colombia",
+            "description": [
+                {
+                    "item": "Develop applications using Python, Django, JavaScript, React, and MySQL."
+                },
+                {
+                    "item": "Generate new ideas and improvements to current projects."
+                },
+                {
+                    "item": "Integrate active directory with (Wordpress/buddypress) and Moodle, improving access for 10,000 users."
+                },
+                {
+                    "item": "Create SQL queries, generating over 40 reports for managerial use."
+                },
+                {
+                    "item": "Develop dashboards in Power BI."
+                },
+                {
+                    "item": "MS Active Directory administration in help desk tasks."
+                }
+            ],
+            "date": "June 2017 - November 2023",
+            "place": "Bogotá, Colombia"
+        },
+        {
+            "icon": "presentation",
+            "title": "Project Manager",
+            "subtitle": "Telefónica Educación Digital",
+            "description": [
+                {
+                    "item": "Weekly progress reports to management."
+                },
+                {
+                    "item": "Manage quality controls of products and quality assurance processes in production lines."
+                },
+                {
+                    "item": "Generate new ideas and improvements to current products."
+                },
+                {
+                    "item": "Network planner for new projects."
+                },
+                {
+                    "item": "Educational project planning in every facet, identifying necessary resources, activities to be carried out, deadlines, and costs projected in the budget."
+                },
+                {
+                    "item": "Maintain good external project relationships with clients, suppliers, and subcontractors."
+                }
+            ],
+            "date": "February 2016 - May 2017",
+            "place": "Bogotá, Colombia"
+        },
+        {
+            "icon": "database",
+            "title": "Administrative and Management",
+            "subtitle": "Universidad de Valencia",
+            "description": [
+                {
+                    "item": "Administrative and educational management support activities for the Master's in Creation and Management of Innovative Companies (Master EI)."
+                },
+                {
+                    "item": "Database creation for the research line 'Entrepreneurship and Innovation'."
+                }
+            ],
+            "date": "February 2015 - May 2015",
+            "place": "Valencia, Spain"
+        },
+        {
+            "icon": "code",
+            "title": "Systems and Information Technology Administrator",
+            "subtitle": "Universidad Autónoma de Bucaramanga, UNAB Virtual",
+            "description": [
+                {
+                    "item": "Create operation manuals and maintenance documents."
+                },
+                {
+                    "item": "Provide customer support, training, and technical assistance for the daily operation, maintenance, use, and administration of Blackboard and Moodle LMS, achieving 99% service stability."
+                }
+            ],
+            "date": "February 2011 - September 2014",
+            "place": "Bucaramanga, Colombia"
+        },
+        {
+            "icon": "code-xml",
+            "title": "E-Learning Professional",
+            "subtitle": "Universidad Autónoma de Bucaramanga, UNAB Virtual",
+            "description": [
+                {
+                    "item": "Design, program, and develop new technologies for various e-learning projects using HTML5 technologies with SCORM 1.2 API management. Administration and support of Blackboard and Moodle LMS platforms."
+                }
+            ],
+            "date": "October 2008 - January 2011",
+            "place": "Bucaramanga, Colombia"
+        }
+    ],
+    "projectstitle": "Projects",
+    "projects": [
+        {
+            "icon": "monitor-play",
+            "title": "Streaming-Service",
+            "description": "Anime visualization system with administration panel and commenting system. Built with CRUD operations.",
+            "technologies": [
+                {
+                    "icon": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "icon": "devicon-laravel-plain",
+                    "name": "Laravel"
+                },
+                {
+                    "icon": "devicon-mysql-plain",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                }
+            ],
+            "tooltipurl": "Streaming-Service",
+            "url": "http://animestream.wuaze.com",
+            "tooltipgithub": "GitHub Streaming-Service",
+            "github": "https://github.com",
+            "image": "streaming_service_thumbnail.jpg"
+        }
+    ],
+    "educationtitle": "Educación",
+    "education": [
+        {
+            "icon": "graduation-cap",
+            "title": "Máster en Creación y Gestión de Empresas Innovadora",
+            "description": "Universidad de Valencia",
+            "date": "octubre 2014 - julio 2015",
+            "place": "Valencia, España"
+        },
+        {
+            "icon": "library-big",
+            "title": "Especialista en Tecnologías Avanzadas para el Desarrollo de Software",
+            "description": "Universidad Autónoma de Bucaramanga",
+            "date": "febrero 2009 - julio 2010",
+            "place": "Bucaramanga, Colombia"
+        },
+        {
+            "icon": "book-open-check",
+            "title": "Ingeniero de Sistemas",
+            "description": "Universitaria de Investigación y Desarrollo",
+            "date": "febrero 2002 - julio 2007",
+            "place": "Bucaramanga, Colombia"
+        }
+    ],
+    "footer": {
+        "author": "Pablo Velásquez",
+        "city": "📍Bucaramanga, Colombia",
+        "made": "hecho en Reflex y Python🐍 con ❤️"
+    }
+}

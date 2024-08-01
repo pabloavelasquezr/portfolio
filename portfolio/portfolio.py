@@ -1,6 +1,6 @@
 import reflex as rx
 from portfolio import data
-from portfolio.styles.style import STYLESHEETS, BASE_STYLE, Color, TextColor, MAX_WIDTH
+from portfolio.styles.style import STYLESHEETS, BASE_STYLE, Color, TextColor, MAX_WIDTH, FontSize as Size
 from portfolio.components.navbar import navbar
 from portfolio.views.header import header
 from portfolio.views.about import about
@@ -13,7 +13,8 @@ from portfolio.views.tech import tech
 
 # class State(rx.State):
 #     pass
-DATA = data.data
+DATA = data.data_es
+DATA_ES = data.data_en
 
 def index() -> rx.Component:
     return rx.center(
